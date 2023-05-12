@@ -1,0 +1,36 @@
+{% extends "listings/bases.html" %}
+{% block content %}
+<div class="row"id="div2">
+<div class="row"id="div5" style="position:relative;top: 09%;">
+    
+        <h3 class="titre text-primary-emphasis">Whois Information for {{ domain_info.domain_name }}</h3>
+    </br></br></br></br>
+    <span class="d-block p-2 text-bg-primary">Domain Name: {{ domain_info.name }}</span>
+    <span class="d-block p-2 text-bg-light">Creation Date: {{ domain_info.creation_date }}</span>
+    <span class="d-block p-2 text-bg-primary">Expiration Date: {{ domain_info.expiration_date }}</span>
+    <span class="d-block p-2 text-bg-light">Registrar: {{ domain_info.registrar }}</span>
+    <span class="d-block p-2 text-bg-primary">Status: {{ domain_info.status }}</span>
+    
+    
+</div>
+<div class="row"id="div6">
+   
+</div>
+<div class="row"id="div7"style="display:flex;align-items:center;justify-content:center;text-align:center; ">
+    
+    <div class="container-fluid">
+
+      
+        <p style="color: white; position:relative;top:10%;font-size: 18px; color:#4B5D67">Copyright <strong>landmark-2023.</strong></p>
+        <p style="color: white; position:relative;top:10%;font-size: 15px; color:#4B5D67">Mention Légales | Tout droits réservés.</p>
+   
+ 
+    </div>
+    </div>  
+</div>
+   
+
+{% endblock %}
+
+
+     
